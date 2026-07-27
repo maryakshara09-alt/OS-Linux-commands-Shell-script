@@ -774,7 +774,9 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="654" height="326" alt="image" src="https://github.com/user-attachments/assets/78b25e47-3868-4204-aff1-149b2c27a6cf" />
 
+<img width="450" height="153" alt="Screenshot 2026-07-27 202250" src="https://github.com/user-attachments/assets/d2f818b5-aeec-4368-8605-b8e1644b708e" />
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -790,6 +792,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="534" height="350" alt="Screenshot 2026-07-27 202355" src="https://github.com/user-attachments/assets/e640b44a-c203-45a3-b2c1-a3dec9948800" />
 
 # using the case command
 cat >casecheck.sh 
@@ -837,6 +840,7 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+<img width="534" height="350" alt="Screenshot 2026-07-27 202355" src="https://github.com/user-attachments/assets/c856ec6c-e305-454c-86c9-d9e857faadaa" />
  
  
  
@@ -854,6 +858,8 @@ $ chmod 755 forin1.sh
  
  
 cat forin2.sh 
+<img width="534" height="350" alt="Screenshot 2026-07-27 202355" src="https://github.com/user-attachments/assets/56529c0e-67c1-4348-8f3e-089cfb523837" />
+
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -866,6 +872,7 @@ done
 $ chmod 755 forin2.sh
  
 cat forin2.sh 
+
 ```bash
 \#!/bin/bash
 \# another example of how not to use the for command
@@ -877,6 +884,7 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+<img width="534" height="350" alt="Screenshot 2026-07-27 202355" src="https://github.com/user-attachments/assets/1c43c9a8-d413-40a6-8b52-38ae869e2779" />
  
 cat forin3.sh 
 ```bash
@@ -889,7 +897,9 @@ done
 ```
 $ ./forin3.sh 
  
-cat forin1.sh 
+cat forin1.sh <img width="534" height="350" alt="Screenshot 2026-07-27 202355" src="https://github.com/user-attachments/assets/7f47c234-57f8-4659-8269-2b32410cf046" />
+
+
 ```bash
 #!/bin/bash
 # basic for command
@@ -923,6 +933,7 @@ Khammam
 
 ## OUTPUT
 
+<img width="534" height="350" alt="Screenshot 2026-07-27 202355" src="https://github.com/user-attachments/assets/d9e3a79c-975f-4c91-8124-7d462a880b44" />
 
 cat forctype.sh 
 ```bash
