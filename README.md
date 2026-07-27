@@ -567,12 +567,15 @@ fi
 ```
 ##OUTPUT
 
+<img width="424" height="297" alt="Screenshot 2026-07-27 201305" src="https://github.com/user-attachments/assets/a0b57ec3-adaa-4e8b-82e8-5dfaa6911887" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+
+<img width="696" height="155" alt="Screenshot 2026-07-27 201340" src="https://github.com/user-attachments/assets/b01130b0-684f-43bc-b8ef-07f484ebc4ec" />
 
 
 # check file ownership
@@ -600,6 +603,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="710" height="259" alt="Screenshot 2026-07-27 201417" src="https://github.com/user-attachments/assets/dd0f0aac-286c-4a29-8f1b-c6e6c5d5b6c2" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -647,6 +651,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="530" height="347" alt="Screenshot 2026-07-27 201515" src="https://github.com/user-attachments/assets/b6d93084-b4b1-4395-9d2f-73cc42667726" />
 
 
 # using numeric test comparisons
@@ -690,6 +695,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="530" height="347" alt="Screenshot 2026-07-27 201515" src="https://github.com/user-attachments/assets/6ea432c1-0a91-41f3-8d83-ca676692432c" />
 
 # check if a file
 cat > ifnested.sh 
@@ -739,6 +745,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="530" height="347" alt="Screenshot 2026-07-27 201515" src="https://github.com/user-attachments/assets/0bb78e32-9a59-4c57-9d14-960afc85c22f" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
