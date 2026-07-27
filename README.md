@@ -83,6 +83,8 @@ Hello world
 This is my world
 ^d
 ```
+<img width="362" height="102" alt="Screenshot 2026-07-27 084913" src="https://github.com/user-attachments/assets/753da27f-7099-450c-b440-e9c9948fba4a" />
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -90,10 +92,13 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
+<img width="398" height="145" alt="Screenshot 2026-07-27 084953" src="https://github.com/user-attachments/assets/3a79b03e-c933-4fd8-a3fe-4a986d6b663d" />
+
 
 
 cut -c1-3 file11
 ## OUTPUT
+<img width="388" height="108" alt="Screenshot 2026-07-27 085053" src="https://github.com/user-attachments/assets/5323c201-20ff-4e72-a89a-08b2f4953086" />
 
 
 
