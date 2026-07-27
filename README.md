@@ -357,10 +357,15 @@ cat > file21
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+```
+
+<img width="320" height="173" alt="Screenshot 2026-07-27 094215" src="https://github.com/user-attachments/assets/63b8b086-85a7-4fd9-bb28-2ad3a4920ba4" />
+
 sort file21
 ## OUTPUT
 
+
+<img width="364" height="156" alt="Screenshot 2026-07-27 094244" src="https://github.com/user-attachments/assets/bcd8fa70-82f7-44fb-8579-540b9170ad83" />
 
 cat > file22
 ```
@@ -370,9 +375,15 @@ cat > file22
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-``` 
+```
+
+<img width="381" height="200" alt="Screenshot 2026-07-27 094318" src="https://github.com/user-attachments/assets/e95416ad-9390-4f0b-921d-4fb0024a38ec" />
+
+
 uniq file22
 ## OUTPUT
+
+<img width="344" height="153" alt="Screenshot 2026-07-27 094355" src="https://github.com/user-attachments/assets/81459f1f-4f91-4037-8237-2977c23a77e1" />
 
 
 
@@ -381,12 +392,7 @@ uniq file22
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 
-cat < urllist.txt
-```
-www. yahoo. com
-www. google. com
-www. mrcet.... com
-^d
+<img width="424" height="251" alt="Screenshot 2026-07-27 094414" src="https://github.com/user-attachments/assets/769e4a75-39aa-40f3-86c2-a1641848ac90" />
  ```
 cat > urllist.txt
 ```
@@ -394,9 +400,14 @@ www. yahoo. com
 www. google. com
 www. mrcet.... com
  ```
+
+<img width="388" height="125" alt="Screenshot 2026-07-27 094457" src="https://github.com/user-attachments/assets/4ba0c123-f54b-4685-90f0-48939a3dcd41" />
+
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+
+<img width="340" height="122" alt="Screenshot 2026-07-27 094529" src="https://github.com/user-attachments/assets/a9dc2049-c7e8-4b30-ae64-7c784d6485ab" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
