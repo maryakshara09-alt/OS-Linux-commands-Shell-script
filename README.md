@@ -58,16 +58,22 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+<img width="400" height="81" alt="Screenshot 2026-07-27 084429" src="https://github.com/user-attachments/assets/f5632ede-8839-4c6a-bcd4-be901bc040f5" />
+
  
 comm file1 file2
  ## OUTPUT
+ <img width="469" height="300" alt="Screenshot 2026-07-27 084509" src="https://github.com/user-attachments/assets/7fd53a4d-b141-46c7-86a0-61efaa779d54" />
+
 
  
 diff file1 file2
 ## OUTPUT
+<img width="432" height="289" alt="Screenshot 2026-07-27 084601" src="https://github.com/user-attachments/assets/c75d6747-808a-4e50-9a3d-44e33ddc6c42" />
 
 
-#Filters
+
+
 
 ### Create the following files file11, file22 as follows:
 
