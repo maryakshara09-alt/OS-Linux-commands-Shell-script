@@ -140,10 +140,12 @@ grep Hello newfile
 grep -v hello newfile 
 ## OUTPUT
 
+<img width="384" height="105" alt="Screenshot 2026-07-27 090618" src="https://github.com/user-attachments/assets/26cbb106-5d47-43bd-aef5-afa659985a2c" />
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+<img width="384" height="105" alt="Screenshot 2026-07-27 090618" src="https://github.com/user-attachments/assets/fb021177-635e-4cd1-9df9-a0ff1c45da5a" />
 
 
 
@@ -151,12 +153,14 @@ cat newfile | grep -i "hello"
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+<img width="410" height="82" alt="Screenshot 2026-07-27 090703" src="https://github.com/user-attachments/assets/810b8078-5487-4310-b267-5b4eaa56d39f" />
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
+<img width="574" height="348" alt="Screenshot 2026-07-27 090849" src="https://github.com/user-attachments/assets/bb39e812-f247-4f39-bbf9-26f0ba581957" />
 
 
 grep -w -n world newfile   
