@@ -163,8 +163,6 @@ grep -R ubuntu /etc
 <img width="574" height="348" alt="Screenshot 2026-07-27 090849" src="https://github.com/user-attachments/assets/bb39e812-f247-4f39-bbf9-26f0ba581957" />
 
 
-grep -w -n world newfile   
-## OUTPUT
 
 cat > newfile
 ```
@@ -218,24 +216,29 @@ egrep '((W|w)orld$)' newfile
 egrep '[1-9]' newfile 
 ## OUTPUT
 
+<img width="308" height="77" alt="Screenshot 2026-07-27 092435" src="https://github.com/user-attachments/assets/2194175d-c56e-4af5-8359-b1421a00809d" />
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+<img width="367" height="75" alt="Screenshot 2026-07-27 092457" src="https://github.com/user-attachments/assets/03d36c94-7b58-4f4b-8d6f-2c916de12b69" />
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+<img width="382" height="83" alt="Screenshot 2026-07-27 092517" src="https://github.com/user-attachments/assets/b289e230-9fbb-4cff-a885-d47023d69904" />
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+<img width="382" height="83" alt="Screenshot 2026-07-27 092517" src="https://github.com/user-attachments/assets/4d46e094-191f-455d-a41d-09c1b7399b0c" />
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
+<img width="382" height="83" alt="Screenshot 2026-07-27 092517" src="https://github.com/user-attachments/assets/bfe96cd5-d76c-4fbd-9003-b6717719e4c4" />
 
 cat > file23
 ```
