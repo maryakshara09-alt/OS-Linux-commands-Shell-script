@@ -131,7 +131,7 @@ grep Hello newfile
 
 
 
-<img width="361" height="119" alt="Screenshot 2026-07-27 085612" src="https://github.com/user-attachments/assets/d53de6c5-d93e-46d3-85e0-01d6302102e4" />
+<img width="460" height="324" alt="Screenshot 2026-07-27 090440" src="https://github.com/user-attachments/assets/c3899a98-c922-4a43-91e0-e3b42d5b6b1e" />
 
 
 
