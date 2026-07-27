@@ -30,6 +30,8 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+<img width="333" height="220" alt="Screenshot 2026-07-27 083640" src="https://github.com/user-attachments/assets/c3461a1b-73b6-40ed-b39e-c73a1a6547cf" />
+
 cat > file2
 ```
 anil aggarwal
@@ -39,14 +41,18 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+<img width="374" height="183" alt="Screenshot 2026-07-27 083748" src="https://github.com/user-attachments/assets/91c2736a-09b3-4d49-99a2-e16e4d1ba4fc" />
+
 ### Display the content of the files
 cat < file1
 ## OUTPUT
 
+<img width="485" height="168" alt="Screenshot 2026-07-27 083949" src="https://github.com/user-attachments/assets/bc3180d4-933b-4d80-b56e-4efc3e5e665a" />
 
 
 cat < file2
 ## OUTPUT
+<img width="444" height="181" alt="Screenshot 2026-07-27 084028" src="https://github.com/user-attachments/assets/c73873fe-bda1-4cd8-bfb5-b3a23012b01d" />
 
 
 # Comparing Files
