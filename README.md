@@ -456,6 +456,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="510" height="107" alt="Screenshot 2026-07-27 200300" src="https://github.com/user-attachments/assets/3d3f902d-70df-49bd-bc49-7eb0006be8ee" />
 
  
 cat << stop > herecheck.txt
@@ -465,10 +466,13 @@ i cant stop
 for this non stop movement
 stop
 ```
+<img width="520" height="158" alt="Screenshot 2026-07-27 200349" src="https://github.com/user-attachments/assets/f908a2f3-9274-4100-b848-dd5f4812001d" />
+
 
 cat herecheck.txt
 ## OUTPUT
 
+<img width="448" height="348" alt="Screenshot 2026-07-27 200438" src="https://github.com/user-attachments/assets/d45baf34-91cb-4b40-adc0-1ebf1f3b1e98" />
 
 cat < scriptest.sh 
 ```bash
@@ -507,23 +511,30 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+<img width="455" height="331" alt="Screenshot 2026-07-27 200516" src="https://github.com/user-attachments/assets/1ecf49a1-7a6a-456d-af6e-711675ff336d" />
+<img width="630" height="457" alt="Screenshot 2026-07-27 200612" src="https://github.com/user-attachments/assets/dfb77c8c-704d-4e26-9445-c660dacca828" />
  
 ls file1
 ## OUTPUT
+<img width="622" height="88" alt="Screenshot 2026-07-27 200655" src="https://github.com/user-attachments/assets/af54d7f3-0b07-4042-b316-0d7e324ba6cf" />
 
 echo $?
+<img width="405" height="77" alt="Screenshot 2026-07-27 200705" src="https://github.com/user-attachments/assets/7d5df6ad-688a-4e32-a495-326310b74bb4" />
+
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+<img width="513" height="155" alt="Screenshot 2026-07-27 200752" src="https://github.com/user-attachments/assets/4c181328-b7f4-4e88-9a42-e5376c6dd4cb" />
  
 abcd
  
 echo $?
  ## OUTPUT
 
+<img width="401" height="150" alt="Screenshot 2026-07-27 200833" src="https://github.com/user-attachments/assets/fd5afff6-124a-49fe-be14-be9167d39f3a" />
 
  
 # mis-using string comparisons
