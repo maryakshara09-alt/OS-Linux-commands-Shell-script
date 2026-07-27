@@ -166,17 +166,6 @@ grep -R ubuntu /etc
 grep -w -n world newfile   
 ## OUTPUT
 
-
-cat < newfile 
-```
-Hello world
-hello world
-Linux is world number 1
-Unix is predecessor
-Linux is best in this World
-^d
-```
-
 cat > newfile
 ```
 Hello world
@@ -186,18 +175,25 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
+<img width="382" height="195" alt="Screenshot 2026-07-27 091536" src="https://github.com/user-attachments/assets/f8de21ba-63d8-44ab-bebf-b62338c17e28" />
+
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+<img width="374" height="111" alt="Screenshot 2026-07-27 091736" src="https://github.com/user-attachments/assets/7aa01dcc-c31b-4e5f-800a-5094b37c5dd6" />
+
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
+<img width="443" height="96" alt="Screenshot 2026-07-27 091758" src="https://github.com/user-attachments/assets/b5699f8c-2ce5-4118-9d0a-504778e1f12a" />
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+<img width="510" height="102" alt="Screenshot 2026-07-27 091819" src="https://github.com/user-attachments/assets/bf150071-a794-4f50-8d65-c19660c90841" />
+
 
 
 
@@ -205,10 +201,7 @@ egrep -w '(H|h)ell[a-z]' newfile
 egrep '(^hello)' newfile 
 ## OUTPUT
 
-
-
-egrep '(world$)' newfile 
-## OUTPUT
+<img width="510" height="102" alt="Screenshot 2026-07-27 091819" src="https://github.com/user-attachments/assets/dac95cc2-e66f-4ae8-ae78-f188a245828c" />
 
 
 
@@ -218,6 +211,7 @@ egrep '(World$)' newfile
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+<img width="352" height="98" alt="Screenshot 2026-07-27 091902" src="https://github.com/user-attachments/assets/b1583f0b-fe9f-4fef-a233-f717d5531e83" />
 
 
 
