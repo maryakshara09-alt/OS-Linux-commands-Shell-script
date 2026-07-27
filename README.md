@@ -413,12 +413,14 @@ cat urllist.txt | tr -d ' '
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="461" height="81" alt="Screenshot 2026-07-27 195554" src="https://github.com/user-attachments/assets/f8203079-66fd-4a74-b593-e181d6dd31f7" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
+<img width="396" height="329" alt="Screenshot 2026-07-27 195605" src="https://github.com/user-attachments/assets/f4914fe8-a384-4788-b3f7-a76088b7f6e9" />
 
 mkdir backupdir
  
@@ -429,19 +431,23 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+<img width="816" height="282" alt="Screenshot 2026-07-27 195726" src="https://github.com/user-attachments/assets/8a3a5b92-f3b8-4ae5-978d-dcf0f2a03b89" />
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="468" height="282" alt="Screenshot 2026-07-27 195807" src="https://github.com/user-attachments/assets/12560fa7-d978-4018-9a11-e74205b33664" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+<img width="587" height="133" alt="Screenshot 2026-07-27 195901" src="https://github.com/user-attachments/assets/28c098a1-cf21-43d1-adfa-3b112fc41254" />
  
 gunzip backup.tar.gz
 ## OUTPUT
 
- 
+ <img width="412" height="61" alt="Screenshot 2026-07-27 195939" src="https://github.com/user-attachments/assets/d1aaed0a-ea15-4953-9ee1-48201ed6726b" />
+
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
