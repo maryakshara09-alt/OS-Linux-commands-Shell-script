@@ -105,11 +105,14 @@ cut -c1-3 file11
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+<img width="398" height="145" alt="Screenshot 2026-07-27 084953" src="https://github.com/user-attachments/assets/6034fc84-f38d-405a-9322-447251b94693" />
+
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="361" height="119" alt="Screenshot 2026-07-27 085612" src="https://github.com/user-attachments/assets/16392538-3038-4d41-91de-70fffde31232" />
 
 
 cat < newfile 
