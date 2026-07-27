@@ -130,8 +130,9 @@ grep Hello newfile
 
 
 
-grep hello newfile 
-## OUTPUT
+
+<img width="361" height="119" alt="Screenshot 2026-07-27 085612" src="https://github.com/user-attachments/assets/d53de6c5-d93e-46d3-85e0-01d6302102e4" />
+
 
 
 
